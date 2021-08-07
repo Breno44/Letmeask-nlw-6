@@ -34,3 +34,10 @@
         cursor: not-allowed;
     }
 }
+
+@media (max-width: 768px) {
+    .button {
+        height: 35px;
+        border-radius: 30px;
+    }
+}

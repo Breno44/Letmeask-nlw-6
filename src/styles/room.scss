@@ -110,3 +110,34 @@
          }
      }
  }
+
+ @media (max-width: 768px) {
+    #page-room {
+        header {
+            padding: 12px;
+        }
+   
+        main {
+            .room-title {
+                justify-content: center;
+   
+                h1 {
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 18px;
+                    color: #29292e;
+                }
+            }
+   
+            form {
+                textarea {
+                    margin: 0 12px;
+                    width: calc(100% - 24px) ;
+                }
+   
+                .form-footer {
+                    justify-content: space-around;
+                }
+            }
+        }
+    }
+ }
