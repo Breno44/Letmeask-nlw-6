@@ -135,4 +135,35 @@
             margin-left : 16px;
          };
     };
+
 };
+
+@media (max-width: 768px) {
+    #page-auth {
+        flex-direction: column;
+    
+        aside {
+            padding: 60px 40px;
+            align-items: center;
+    
+            img {
+                max-width: 320px;
+            };
+    
+            strong {
+                font: 700 24px 'Poppins', sans-serif;
+                text-align: center;
+            }
+    
+            p {
+                font-size: 18px;
+                text-align: center;
+            }
+        };
+    
+        main {
+            margin-top: 64px;
+            padding-bottom: 32px;
+        };  
+    };
+}

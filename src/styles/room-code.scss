@@ -27,3 +27,27 @@
         font-weight: 500;
     }
 }
+
+@media (max-width: 760px) {
+    .room-code {
+        height: 30px;
+    
+        div {
+            background: #835afd;
+            padding: 0 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        span {
+            display: block;
+            align-self: center;
+            flex: 1;
+            padding: 0 16px 0 12px;
+            width: 150px;
+            font-size: 10px;
+            font-weight: 500;
+        }
+    }
+}
