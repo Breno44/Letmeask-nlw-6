@@ -86,3 +86,10 @@
         }
     }
 }
+
+@media (max-width:800px) {
+    .question {
+        width: calc(100% - 36px);
+        margin-left: 18px;
+    }
+}
