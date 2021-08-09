@@ -39,5 +39,13 @@
     .button {
         height: 35px;
         border-radius: 30px;
+
+        &.outlined {
+            font-size: 14px;
+        }
+    }
+
+    img {
+        display: none;
     }
 }
